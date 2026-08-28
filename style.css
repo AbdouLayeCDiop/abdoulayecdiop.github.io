@@ -1,7 +1,26 @@
 body {
-    background-color: rgb(70, 70, 70);
+    background-image: linear-gradient(0,rgb(20,20,20),rgb(30,30,30));
+    background-attachment: fixed;
+    font-family: "Montserrat", sans-serif;
+    color: white;
 }
 
-p {
-    font-family: "Montserrat", sans-serif;
+a {
+    color: rgb(215, 127, 237);
+}
+
+hr {
+    color: black;
+}
+
+#main_header {
+    margin-bottom: -10px;
+}
+
+.subheader {
+    font-weight: 500;
+}
+
+img {
+    border-radius: 20px;
 }
