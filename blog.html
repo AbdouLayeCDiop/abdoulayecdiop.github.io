@@ -1,0 +1,72 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="background">
+    <nav>
+      <a href="index.html" id="nav-main">Home</a>
+      <a href="blog.html">Blog</a>
+    </nav>
+    <h1 id="main_header">Blog</h1>
+    <p class="subheader">Lorem ipsum and all that kind of stuff</p>
+    <hr></hr>
+    <article class="blog-post-card">
+      <h2 class="blog-post-card__title">A First Blog Post</h2>
+      <time class="blog-post-card__date" datetime="2026-10-21">October 21, 2026</time>
+      <p class="blog-post-card__text">
+        This class has been my first exposure to open source software development and so far, it has been
+        a great introduction to the development style. Throughout the course, I have learned about the pros
+        and cons of open source software development, its typical audience, and the typical workflows within
+        such online spaces. Although I'm not fully adjusted to the development style just yet, I feel comfortable
+        enough asking questions and seeking guidance for topics or practices I'm unfamiliar with and navigating
+        relevant challenges I face in CSC 426.
+        <br><br>
+        Near the beginning of CSC 426, I found myself facing one of the major challenges with open source software
+        development as a whole, large scale collaboration. Specifically, navigating an online space in which everyone
+        is able to edit each other's work, request changes, and make meaningful alterations to the trajectory of the
+        project. Although this can be percieved as a positive aspect of open source software engineering, it does
+        create a few complications. For example, the volume of contributions, to me, can feel fast-paced and somewhat
+        overwhelming. In addition, keeping track of what contributions have already been made while trying not to create
+        duplicate issues can be difficult at times, especially if its an issue that can be worded in several different ways.
+        However, I understand these challenges are natural and most likely faced by the majority of people who are new
+        to open source software development. With that in mind, I embrace the unfamiliarity of this development style and
+        hope to adjust more to it throughout the class and potentially in future projects I pick up.
+        <br><br>
+        In terms of positive aspects of open source software development, the community aspect is definetly the biggest
+        factor that comes to mind. Although I mentioned some challenges that come from large scale collaboration, the community
+        is still one of the greatest parts of it. This type of development environment encourages people to actively communicate
+        with others, review each other's work, and provide meaningful feedback that fosters a welcoming learning environment.
+        The community aspect of open source software development is the core of the development style, and it's what leads to
+        significant mental growth and learning opportunities. While the practice of making several changes to the same project
+        with over a dozen other people, and even thousands for larger projects, can seem overwhelming at first, it ultimately
+        creates a supportive development environment in which people are encouraged to seek out help from others while learning
+        how to help others themselves. Open source software engineering has also proven to be a effective model for building
+        critical software infastructure as seen in several industry level softwares such as Linux, Android, and OpenStack.
+        Softwares such as these are prime examples of how widespread open source can be, since there are enterprise-level
+        systems being ran by open source contributions. Although open source software engineerng poses the risk of low quality
+        code being pushed, the existance of maintainers, code reviews, and open source guidelines solve this issue by setting
+        a standard for contributions.
+        <br><br>
+        As of October 21st, 2026, I have completed 7 total story points across two resolved issues. The first issue I completed
+        was a simple issue related to the color and icon of a warning message on one of BCSR's pages that unintentionally appeared
+        to be an error message. I attributed 2 story points PR #137 because the fix was a simple visual alteration to a page's UI,
+        spanning a few lines and only affecting two files. The other issue I solved was more complex, involving the database and
+        email creation. I attributed 5 story points to PR #155 because the fix was a completely new feature that spans across two pages,
+        uses GET requests to determine which faculty to send an email to based on which courses are missing syllabi. In retrospect, I would
+        say the first PR was somewhat easy to complete, but the difficulty primarily came from adjusting to the existing code in the repo
+        since I was unfamiliar with it at first. The second PR was comparatively much more difficult since it involved writing code
+        that involved reading the database and producing different behavior based on the contents of the database, something I don't have
+        much experience with generally.
+      </p>
+    </article>
+  </div>
+</body>
+
+</html>
